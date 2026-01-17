@@ -5,7 +5,7 @@ $user="root";
 $password ="";
 $database="belajarcrud";
 
-$conn = mysqli_connect($host,$user,$password,$database,$port);
+$conn = mysqli_connect($host,$user,$password,$database);
 
 if(!$conn){
     die("koneksi gagal:" .mysqli_connect_error());
